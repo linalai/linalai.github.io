@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>将来的你做主！</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="wh-tester"></div>
+	
+	<div id="main" class="bg-control">
+		<div id="scale-container">
+			<div id="loading" style="">
+				<p><span id="loading_percent">1%</span></p>
+				<p>正在加载。。</p>
+			</div>
+
+			<div class="Scene scene1 s-init" style="display: none;" remix="Scene1">
+				<div class="lay-symbols">
+					<h1 class="Symbol slogan"></h1>
+					<span class="SpriteSymbol begin-btn"></span>
+					<span class="Symbol cloud1"></span>
+					
+					<span class="Symbol cloud2"></span>
+					<div class="jesus-container">
+						<span class="Symbol jesus"></span>
+					</div>
+					<span class="Symbol earth"></span>
+					<span class="Symbol cloud3"></span>
+				
+					<span class="SpriteSymbol next"></span>
+				</div>
+			</div>
+
+			<!-- scene2 background dimmed -->
+			<div class="Scene scene2 s-init" style="display: none;" remix="Scene2">
+				<div class="lay-symbols">
+					<div class="chat-container">
+						<span class="SpriteSymbol chat1"></span>
+						<span class="SpriteSymbol chat2"></span>
+						<span class="SpriteSymbol chat3"></span>
+						<span class="SpriteSymbol chat4"></span>
+						<span class="SpriteSymbol chat5"></span>
+						<span class="SpriteSymbol chat6"></span>
+					</div>
+					<span class="Symbol swirl"></span>
+					<a href="javascript:;" class="SpriteSymbol begin-btn"></a>
+					<span class="Symbol pm"></span>
+				</div>
+			</div>
+			<div class="Scene scene3 s-init" style="display: none" remix="Scene3">
+				<div class="lay-symbols" ref="ref1">
+					<span class="SpriteSymbol txt1"></span>
+					<span class="SpriteSymbol pm"></span>
+					<span class="SpriteSymbol pointer"></span>
+					<span class="SpriteSymbol add-btn" ref="showIcons"></span>
+					
+					<div ref="listicon"></div>
+
+					<div class="choose-frame">
+						<span class="SpriteSymbol ok-btn" ref="saveIcons"></span>
+						<ul class="row1">
+							<li class="AppFrame"><i class="App appIcon1"></i></li>
+							<li class="AppFrame"><i class="App appIcon2"></i></li>
+							<li class="AppFrame"><i class="App appIcon3"></i></li>
+							<li class="AppFrame"><i class="App appIcon4"></i></li>
+							<li class="AppFrame"><i class="App appIcon5"></i></li>
+						</ul>
+						<ul class="row2">
+							<li class="AppFrame"><i class="App appIcon6"></i></li>
+							<li class="AppFrame"><i class="App appIcon7"></i></li>
+							<li class="AppFrame"><i class="App appIcon8"></i></li>
+							<li class="AppFrame"><i class="App appIcon9"></i></li>
+							<li class="AppFrame"><i class="App appIcon10"></i></li>
+						</ul>
+						<ul class="row3">
+							<li class="AppFrame"><i class="App appIcon11"></i></li>
+							<li class="AppFrame"><i class="App appIcon12"></i></li>
+							<li class="AppFrame"><i class="App appIcon13"></i></li>
+							<li class="AppFrame"><i class="App appIcon14"></i></li>
+							<li class="AppFrame"><i class="App appIcon15"></i></li>
+						</ul>
+						<ul class="row4">
+							<li class="AppFrame"><i class="App appIcon16"></i></li>
+							<li class="AppFrame"><i class="App appIcon17"></i></li>
+							<li class="AppFrame"><i class="App appIcon18"></i></li>
+							<li class="AppFrame"><i class="App appIcon19"></i></li>
+							<li class="AppFrame"><i class="App appIcon20"></i></li>
+						</ul>
+						<ul class="row5">
+							<li class="AppFrame"><i class="App appIcon21"></i></li>
+							<li class="AppFrame"><i class="App appIcon22"></i></li>
+							<li class="AppFrame"><i class="App appIcon23"></i></li>
+							<li class="AppFrame"><i class="App appIcon24"></i></li>
+							<li class="AppFrame"><i class="App appIcon25"></i></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="frame" ref="frame"></div>
+				
+			</div>
+
+			<div class="Scene scene4 s-init" style="display:none" remix="Scene4">
+				<div class="lay-symbols">
+					<span class="SpriteSymbol txt1"></span>
+					<span class="SpriteSymbol txt2"></span>
+					<span class="SpriteSymbol txt3"></span>
+					<span class="SpriteSymbol txt4"></span>
+					<span class="Symbol pm"></span>
+					<span class="Symbol computer"></span>
+				</div>
+				<span class="Symbol desktop"></span>
+				<span class="Symbol once-btn" ref="refresh"></span>
+
+			</div>
+		</div>
+	</div>
+	
+	<div style="display:none">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255996008'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1255996008' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
+	
+	<script type="text/javascript" charset="utf-8" src="js/zepto.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="packed/app.js"></script>
+</body>
+</html>
